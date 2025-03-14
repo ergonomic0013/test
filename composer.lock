@@ -330,16 +330,16 @@
         },
         {
             "name": "nemchenko/test-sdk",
-            "version": "dev-feature/mpm-0002",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergonomic0013/test-sdk.git",
-                "reference": "1de459ccf28e3d2e39c899d9e45c4566f7767bd5"
+                "reference": "9ef728d19989263b1ec0ed036a11bdea1a7e3fcb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergonomic0013/test-sdk/zipball/1de459ccf28e3d2e39c899d9e45c4566f7767bd5",
-                "reference": "1de459ccf28e3d2e39c899d9e45c4566f7767bd5",
+                "url": "https://api.github.com/repos/ergonomic0013/test-sdk/zipball/9ef728d19989263b1ec0ed036a11bdea1a7e3fcb",
+                "reference": "9ef728d19989263b1ec0ed036a11bdea1a7e3fcb",
                 "shasum": ""
             },
             "type": "library",
@@ -360,10 +360,10 @@
             ],
             "description": "test sdk",
             "support": {
-                "source": "https://github.com/ergonomic0013/test-sdk/tree/feature/mpm-0002",
+                "source": "https://github.com/ergonomic0013/test-sdk/tree/1.2.0",
                 "issues": "https://github.com/ergonomic0013/test-sdk/issues"
             },
-            "time": "2025-03-14T10:23:02+00:00"
+            "time": "2025-03-14T10:24:27+00:00"
         },
         {
             "name": "psr/http-client",
