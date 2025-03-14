@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d9d73f51cea9d68c40d8aa65640fc5bd",
+    "content-hash": "5008c2718543f198b036288d8bd168fa",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -330,22 +330,22 @@
         },
         {
             "name": "nemchenko/test-sdk",
-            "version": "1.2.0",
+            "version": "dev-feature/mpm-0004",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergonomic0013/test-sdk.git",
-                "reference": "9ef728d19989263b1ec0ed036a11bdea1a7e3fcb"
+                "reference": "9919eff11326d0b29adad4498b933c83ac19ff06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergonomic0013/test-sdk/zipball/9ef728d19989263b1ec0ed036a11bdea1a7e3fcb",
-                "reference": "9ef728d19989263b1ec0ed036a11bdea1a7e3fcb",
+                "url": "https://api.github.com/repos/ergonomic0013/test-sdk/zipball/9919eff11326d0b29adad4498b933c83ac19ff06",
+                "reference": "9919eff11326d0b29adad4498b933c83ac19ff06",
                 "shasum": ""
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-feature/mpm-0002": "1.2-dev"
+                    "dev-feature/mpm-0004": "1.4-dev"
                 }
             },
             "autoload": {
@@ -360,10 +360,10 @@
             ],
             "description": "test sdk",
             "support": {
-                "source": "https://github.com/ergonomic0013/test-sdk/tree/1.2.0",
+                "source": "https://github.com/ergonomic0013/test-sdk/tree/feature/mpm-0004",
                 "issues": "https://github.com/ergonomic0013/test-sdk/issues"
             },
-            "time": "2025-03-14T10:24:27+00:00"
+            "time": "2025-03-14T10:27:54+00:00"
         },
         {
             "name": "psr/http-client",
