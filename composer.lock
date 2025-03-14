@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a0e26920f9f555bb81a766ba0d91c21",
+    "content-hash": "d9d73f51cea9d68c40d8aa65640fc5bd",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -330,19 +330,24 @@
         },
         {
             "name": "nemchenko/test-sdk",
-            "version": "1.0.0",
+            "version": "dev-feature/mpm-0002",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergonomic0013/test-sdk.git",
-                "reference": "9baf6c7af34b1eba652270b9a08a045d83e1d1e7"
+                "reference": "1de459ccf28e3d2e39c899d9e45c4566f7767bd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergonomic0013/test-sdk/zipball/9baf6c7af34b1eba652270b9a08a045d83e1d1e7",
-                "reference": "9baf6c7af34b1eba652270b9a08a045d83e1d1e7",
+                "url": "https://api.github.com/repos/ergonomic0013/test-sdk/zipball/1de459ccf28e3d2e39c899d9e45c4566f7767bd5",
+                "reference": "1de459ccf28e3d2e39c899d9e45c4566f7767bd5",
                 "shasum": ""
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-feature/mpm-0002": "1.2-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Nemchenko\\TestSdk\\": "src/"
@@ -355,10 +360,10 @@
             ],
             "description": "test sdk",
             "support": {
-                "source": "https://github.com/ergonomic0013/test-sdk/tree/1.0.0",
+                "source": "https://github.com/ergonomic0013/test-sdk/tree/feature/mpm-0002",
                 "issues": "https://github.com/ergonomic0013/test-sdk/issues"
             },
-            "time": "2025-03-14T09:06:28+00:00"
+            "time": "2025-03-14T10:23:02+00:00"
         },
         {
             "name": "psr/http-client",
@@ -634,7 +639,7 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "guzzlehttp/guzzle": 20
     },

@@ -6,7 +6,7 @@
     "minimum-stability": "dev",
     "require": {
         "guzzlehttp/guzzle": "8.0.x-dev",
-        "nemchenko/test-sdk": "^1.1"
+        "nemchenko/test-sdk": "^1.2"
     },
     "autoload": {
         "psr-4": {
