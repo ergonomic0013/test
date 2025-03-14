@@ -3,6 +3,7 @@
     "description": "test project",
     "type": "project",
     "prefer-stable": true,
+    "minimum-stability": "dev",
     "require": {
         "guzzlehttp/guzzle": "8.0.x-dev",
         "nemchenko/test-sdk": "^1.0"
@@ -12,15 +13,15 @@
             "Nemchenko\\Test\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "empty"
-        }
-    ],
     "repositories": [
         {
             "type": "vcs",
             "url": "git@github.com:ergonomic0013/test-sdk.git"
+        }
+    ],
+    "authors": [
+        {
+            "name": "empty"
         }
     ]
 }
