@@ -1,0 +1,17 @@
+{
+    "name": "nemchenko/test",
+    "description": "test project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Nemchenko\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "empty"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
